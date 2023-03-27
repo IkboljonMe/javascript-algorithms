@@ -1,0 +1,17 @@
+{
+  "name": "javascript-algorithms",
+  "version": "1.0.0",
+  "description": "data structures and algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "algorithms"
+  ],
+  "author": "Ikboljon Abdurasulov",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
