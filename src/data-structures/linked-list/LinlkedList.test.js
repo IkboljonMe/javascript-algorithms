@@ -2,7 +2,7 @@ const LinkedList = require("./LinkedList");
 
 describe("LinkedList", () => {
   let list;
-
+  //We create same list so, I used beforeEach hook to implement this logic;
   beforeEach(() => {
     list = new LinkedList();
     list.add(1);

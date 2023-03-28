@@ -13,6 +13,8 @@ class LinkedList {
   }
 
   add(value) {
+    //TIME-COMPLEXITY: O(1);
+    //MEMORY: 0(1);
     const newNode = new Node(value);
 
     if (!this.head) {
@@ -27,6 +29,8 @@ class LinkedList {
   }
 
   insert(value, index) {
+    //TIME-COMPLEXITY: O(n);
+    //MEMORY: 0(1);
     if (index < 0 || index > this.length) {
       return false;
     }
@@ -59,6 +63,8 @@ class LinkedList {
   }
 
   remove(value) {
+    //TIME-COMPLEXITY: O(n);
+    //MEMORY: 0(1);
     let current = this.head;
     let previous = null;
 
@@ -86,6 +92,8 @@ class LinkedList {
   }
 
   removeAt(index) {
+    //TIME-COMPLEXITY: O(n);
+    //MEMORY: 0(1);
     if (index < 0 || index >= this.length) {
       return null;
     }
@@ -116,6 +124,8 @@ class LinkedList {
   }
 
   get(index) {
+    //TIME-COMPLEXITY: O(n);
+    //MEMORY: 0(1);
     if (index < 0 || index >= this.length) {
       return null;
     }
@@ -132,6 +142,8 @@ class LinkedList {
   }
 
   toArray() {
+    //TIME-COMPLEXITY: O(n);
+    //MEMORY: 0(n);
     const arr = [];
 
     let current = this.head;
