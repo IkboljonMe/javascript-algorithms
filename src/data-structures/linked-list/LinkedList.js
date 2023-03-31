@@ -26,6 +26,7 @@ class LinkedList {
     }
 
     this.length++;
+    return newNode;
   }
 
   insert(value, index) {
