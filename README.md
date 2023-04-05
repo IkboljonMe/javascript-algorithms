@@ -14,7 +14,8 @@ The following data structures are implemented in this project:
 - [Hash Table](https://github.com/IkboljonMe/javascript-algorithms/tree/main/src/data-structures/hash-table)
 - [Trie]()
 - [Graph]()
-  Each data structure is implemented as a JavaScript class, and includes Jest test cases to ensure correctness.
+
+Each data structure is implemented as a JavaScript class, and includes Jest test cases to ensure correctness.
 
 ## [Algorithms](https://github.com/IkboljonMe/javascript-algorithms/tree/main/src/algorithms)
 
@@ -27,10 +28,13 @@ Each algorithm is implemented as a function, and includes Jest test cases to ens
 ## Usage
 
 To use this project, simply clone the repo and run **npm install** to install the required packages. You can then run **npm test** to execute all the Jest test cases.
+To install all packages:
 
 ```
 npm install
 ```
+
+To test:
 
 ```
 npm test
