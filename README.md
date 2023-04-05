@@ -48,4 +48,4 @@ npm test -- data-structures/linked-list.test.js
 
 ## License
 
-This project is licensed under the terms of the MIT license. See the LICENSE file for details.
+This project is licensed under the terms of the MIT license. See the [LICENSE](https://github.com/IkboljonMe/javascript-algorithms/blob/main/LICENSE.txt) file for details.
